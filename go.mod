@@ -123,6 +123,7 @@ replace (
 	github.com/disiqueira/gotree => ../../disiqueira/gotree
 	github.com/ethereum/go-ethereum v1.9.1 => ../../ethereum/go-ethereum
 	github.com/graph-gophers/graphql-go v0.0.0-00010101000000-000000000000 => ../../ethereum/go-ethereum/vendor/github.com/graph-gophers/graphql-go
+	github.com/ipfs/go-merkledag v0.2.3 => ../go-merkledag
 	github.com/karalabe/usb v0.0.0-20190703132631-6a7de9d893fe => ../../ethereum/go-ethereum/vendor/github.com/karalabe/usb
 )
 

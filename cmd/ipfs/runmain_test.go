@@ -21,7 +21,8 @@ func TestRunMain(t *testing.T) {
 	//args := []string{"eth","setPermission","./123","-r","-n","-g","admin"}
 	//args := []string{"eth","tell"}
 	//args := []string{"eth","showGroups"}
-	args := []string{"eth","ls"}
+	//args := []string{"eth","ls"}
+	args := []string{"object","new","unixfs-dir"}
 	os.Args = append([]string{os.Args[0]}, args...)
 	ret := mainRet()
 

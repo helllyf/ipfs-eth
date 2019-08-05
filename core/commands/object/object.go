@@ -500,6 +500,8 @@ Available templates:
 		}
 
 		nd, err := api.Object().New(req.Context, options.Object.Type(template))
+		test := nd.(*dag.ProtoNode)
+		test.AddContract([]byte("foobar"),[]byte("foobar"))
 		if err != nil && err != io.EOF {
 			return err
 		}
